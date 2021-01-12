@@ -27,7 +27,7 @@ Remove-PSSession $Session
 #Most of the companies are moving away from basic Auth to Modern Auth or MFA.
 #Make sure to check that Basic Auth is on the network for these cmdlets to work
 #To check run the following cmdlet in the Command Prompt:
-
+<#
 winrm get winrm/config/client/auth
-
+#>
 #If you see Basic=True only then basic Auth script will work
