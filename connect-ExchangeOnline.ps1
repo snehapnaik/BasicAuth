@@ -30,4 +30,4 @@ Remove-PSSession $Session
 
 winrm get winrm/config/client/auth
 
-#If you see Basic=True only then basic Auth script will work
+#If you see Basic=True only then basic Auth script will work in Powershell
